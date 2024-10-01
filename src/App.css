@@ -1,0 +1,48 @@
+.App {
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.pokemonCardContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* grid-template-columns: 1f
+  r 1fr 1fr 1fr;
+  place-items: center;
+  gap: 20px;
+  margin-top: 20px; */
+}
+
+.btn {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn button {
+  padding: 8px 32px;
+  background-color: rgb(102, 102, 203);
+  border: none;
+  color: white;
+  font-size: 16px;
+  box-shadow: 2px 8px 21px -2px #777777;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.btn button:hover {
+  background-color: rgb(78, 78, 152);
+}
+
+.btn button:active {
+  transform: translateY(4px);
+}
+
